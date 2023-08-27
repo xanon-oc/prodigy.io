@@ -1,5 +1,4 @@
 "use client";
-import "@/styles/Banner.css";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 import LiveAuctionCard from "@/components/LiveAuctionCard";

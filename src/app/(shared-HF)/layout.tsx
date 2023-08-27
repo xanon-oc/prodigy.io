@@ -19,10 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="relative z-50">
+        <div className="container relative z-50">
           <Navbar />
         </div>
-        {children}
+        <div className="container mx-auto">{children}</div>
         <Footer />
       </body>
     </html>
