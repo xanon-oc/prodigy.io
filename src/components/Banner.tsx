@@ -5,7 +5,7 @@ import BgGraphic1 from "@/assets/bgGraphic.svg";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="max-h-screen">
       <div className="">
         <Image
           src={BgGraphic1}
@@ -14,8 +14,8 @@ const Banner = () => {
           objectFit="cover"
         />
       </div>
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 justify-around mt-28">
-        <div className="text-start z-0">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 justify-around mt-28 ">
+        <div className="text-start z-0 mt-20">
           <h2 className="text-[56px] font-bold leading-[68px]">
             Discover, find,
           </h2>

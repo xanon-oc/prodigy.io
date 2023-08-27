@@ -6,8 +6,8 @@ import Link from "next/link";
 import DemoImg from "@/assets/me2.png";
 const Navbar = () => {
   return (
-    <header className="bg-inherit text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+    <header className="bg-inherit text-white container mx-auto">
+      <div className="mx-auto max-h-screen px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex items-center sm:justify-between sm:gap-4">
           <Link href="/">
             <Image
