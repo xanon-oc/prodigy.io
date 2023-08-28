@@ -2,7 +2,7 @@ import React from "react";
 import DemoCardPic from "@/assets/demo-card.png";
 import Image from "next/image";
 import DemoUserPic from "@/assets/userDemo.svg";
-const LiveAuctionCard = () => {
+const ProductCard = () => {
   return (
     <div className="auction-card mt-9">
       <div className="flex justify-evenly p-4">
@@ -44,4 +44,4 @@ const LiveAuctionCard = () => {
   );
 };
 
-export default LiveAuctionCard;
+export default ProductCard;

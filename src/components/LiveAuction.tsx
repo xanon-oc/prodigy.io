@@ -1,7 +1,7 @@
 "use client";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import LiveAuctionCard from "@/components/LiveAuctionCard";
+import ProductCard from "@/components/ProductCard";
 import NavDemo from "@/assets/navigation-arrow.svg";
 import Image from "next/image";
 const LiveAuction = () => {
@@ -18,19 +18,19 @@ const LiveAuction = () => {
       <h1 className="text-4xl font-bold">Live Auction</h1>
       <div ref={ref} className="keen-slider">
         <div className="keen-slider__slide">
-          <LiveAuctionCard />
+          <ProductCard />
         </div>
         <div className="keen-slider__slide">
-          <LiveAuctionCard />
+          <ProductCard />
         </div>
         <div className="keen-slider__slide">
-          <LiveAuctionCard />
+          <ProductCard />
         </div>
         <div className="keen-slider__slide">
-          <LiveAuctionCard />
+          <ProductCard />
         </div>
         <div className="keen-slider__slide">
-          <LiveAuctionCard />
+          <ProductCard />
         </div>
       </div>
       <div className="flex justify-center mx-auto mt-8 cursor-pointer">
