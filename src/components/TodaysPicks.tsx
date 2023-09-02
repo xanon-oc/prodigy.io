@@ -5,7 +5,7 @@ const TodaysPicks = () => {
   return (
     <div className="mt-20">
       <div className="flex justify-between">
-        <h1 className="text-4xl font-bold">Today's Picks</h1>
+        <h1 className="text-4xl font-bold">Best Picks Of The Day</h1>
         <p
           className="cursor-pointer text-base font-bold
          uppercase  custom-underline"

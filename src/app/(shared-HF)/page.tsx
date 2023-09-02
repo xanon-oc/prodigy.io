@@ -1,16 +1,18 @@
 import Banner from "@/components/Banner";
 import "keen-slider/keen-slider.min.css";
-import LiveAuction from "@/components/LiveAuction";
 import TopSeller from "@/components/TopSeller";
 import TodaysPicks from "@/components/TodaysPicks";
+import ShortDescription from "@/components/ShortDescription";
+import PartnerSection from "@/components/PartnerSection";
 
 export default function Home() {
   return (
     <div className="container  text-white">
       <Banner />
-      <LiveAuction />
+      <ShortDescription />
       <TopSeller />
       <TodaysPicks />
+      <PartnerSection />
     </div>
   );
 }
