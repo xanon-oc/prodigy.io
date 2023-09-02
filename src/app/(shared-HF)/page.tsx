@@ -4,6 +4,7 @@ import TopSeller from "@/components/TopSeller";
 import TodaysPicks from "@/components/TodaysPicks";
 import ShortDescription from "@/components/ShortDescription";
 import PartnerSection from "@/components/PartnerSection";
+import CallToAction from "@/components/CallToAction";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <TopSeller />
       <TodaysPicks />
       <PartnerSection />
+      <CallToAction />
     </div>
   );
 }
