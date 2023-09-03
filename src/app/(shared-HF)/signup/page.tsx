@@ -1,10 +1,36 @@
+"use client";
+import SignUpForm from "@/components/SignUpForm";
 import React from "react";
 
 const page = () => {
   return (
-    <main className="relative py-28">
+    <main className="relative">
       <div className="container relative z-10 text-gray-600 sm:px-4 md:px-8">
-        Hi This is the Signup page
+        {/* component  */}
+        <div className="h-screen md:flex">
+          <div className="relative overflow-hidden md:flex  w-1/2 bg-inherit justify-around items-center">
+            <div>
+              <h1 className="text-white font-bold text-4xl font-sans">
+                GoFinance
+              </h1>
+              <p className="text-white mt-1">
+                The most popular peer to peer lending at SEA
+              </p>
+              <button
+                type="submit"
+                className="block w-28 bg-white text-indigo-800 mt-4 py-2 rounded-2xl font-bold mb-2"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+          {/* form */}
+          <div className="flex md:w-1/2 justify-center py-10 items-center bg-inherit">
+            <div className="border p-14 rounded-2xl">
+              <SignUpForm />
+            </div>
+          </div>
+        </div>
       </div>
       <div
         className="absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
