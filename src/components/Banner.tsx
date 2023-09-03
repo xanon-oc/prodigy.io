@@ -5,7 +5,7 @@ import BgGraphic1 from "@/assets/bgGraphic.svg";
 
 const Banner = () => {
   return (
-    <div className="max-h-screen">
+    <div className="container max-h-screen">
       <div className="">
         <Image
           src={BgGraphic1}

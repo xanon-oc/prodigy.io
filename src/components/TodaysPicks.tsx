@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 
 const TodaysPicks = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 container">
       <div className="flex justify-between">
         <h1 className="text-4xl font-bold">Best Picks Of The Day</h1>
         <p
@@ -13,7 +13,7 @@ const TodaysPicks = () => {
           Explore more
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 gap-8 mt-8">
         <ProductCard />
         <ProductCard />
         <ProductCard />

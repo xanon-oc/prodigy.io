@@ -8,12 +8,13 @@ const PartnerSection = () => {
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h3 className="text-white text-3xl font-semibold sm:text-4xl">
-            <span>Who&apos;s </span> using Float UI?
+            <span>Who&apos;s </span> using Prodigy.io?
           </h3>
           <p className="text-white mt-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            dignissim nibh nisl, vel egestas magna rhoncus at. Nunc elementum
-            efficitur tortor in laoreet.
+            Big collectors like you and various Company are using prodigy.io to
+            buy and sell their <span>NFT&apos;s </span>
+            Some users are saving them for future to grab the huge profit as a
+            insurance
           </p>
         </div>
         <div className="mt-12 flex justify-center">

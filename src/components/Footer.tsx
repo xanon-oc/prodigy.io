@@ -3,8 +3,8 @@ import Logo from "@/assets/prodigyLogoName.svg";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <footer className="bg-inherit">
-      <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+    <footer className="bg-inherit container">
+      <div className="mx-auto px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="flex justify-center text-teal-600 sm:justify-start">
@@ -274,7 +274,9 @@ const Footer = () => {
                       />
                     </svg>
 
-                    <span className="flex-1 text-white">john@doe.com</span>
+                    <span className="flex-1 text-white">
+                      niloyroy184@gmail.com
+                    </span>
                   </a>
                 </li>
 
@@ -298,7 +300,7 @@ const Footer = () => {
                       />
                     </svg>
 
-                    <span className="flex-1 text-white">0123456789</span>
+                    <span className="flex-1 text-white">+8801614100771</span>
                   </a>
                 </li>
 
@@ -335,19 +337,17 @@ const Footer = () => {
         <div className="mt-12 border-t border-gray-100 pt-6">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
             <p className="text-sm text-white">
-              <span className="block sm:inline">All rights reserved.</span>
+              <span className="block sm:inline">All rights reserved .</span>
 
               <a
-                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                className="inline-block transition hover:text-teal-600/75 ml-2"
                 href="/"
               >
                 Terms & Conditions
               </a>
 
-              <span>&middot;</span>
-
               <a
-                className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                className="inline-block transition hover:text-teal-600/75 ml-2"
                 href="/"
               >
                 Privacy Policy
@@ -355,7 +355,7 @@ const Footer = () => {
             </p>
 
             <p className="mt-4 text-sm text-white sm:order-first sm:mt-0">
-              &copy; 2022 Company Name
+              &copy; 2023 Prodigy.io
             </p>
           </div>
         </div>

@@ -61,7 +61,7 @@ const ShortDescription = () => {
   const [isVideoPoppedUp, setVideoPopUp] = useState(false);
 
   return (
-    <section>
+    <section className="container">
       <div className="mx-auto px-4 py-28 gap-12 text-white md:px-8 xl:flex">
         <div className="space-y-5 max-w-2xl mx-auto text-center xl:text-left">
           <div className="flex flex-wrap items-center justify-center gap-6 xl:justify-start">

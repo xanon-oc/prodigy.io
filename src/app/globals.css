@@ -7,8 +7,6 @@
 }
 
 .auction-card {
-  width: 340px;
-  height: 460px;
   flex-shrink: 0;
   border-radius: 20px;
   background: var(--background-second, #343444);
