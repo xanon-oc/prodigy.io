@@ -154,8 +154,7 @@ const Navbar = () => {
                 className="dropdown-content z-[1]  menu p-4 mt-[2px] shadow bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <a className="hover:text-green-400">
-                    {" "}
+                  <a href="/user-profile" className="hover:text-green-400">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -174,8 +173,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="hover:text-green-400">
-                    {" "}
+                  <a href="/dashboard" className="hover:text-green-400">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"

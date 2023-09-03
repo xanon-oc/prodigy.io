@@ -15,6 +15,10 @@ const NavLinkSrc = [
     link: "/auction",
   },
   {
+    title: "Blogs",
+    link: "/blogs",
+  },
+  {
     title: "About",
     link: "/about",
   },

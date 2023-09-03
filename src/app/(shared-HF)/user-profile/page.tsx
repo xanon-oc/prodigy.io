@@ -4,7 +4,7 @@ const page = () => {
   return (
     <main className="relative py-28">
       <div className="container relative z-10 text-gray-600 sm:px-4 md:px-8">
-        Hi This is the About page
+        Hi This is the User Profile page
       </div>
       <div
         className="absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
