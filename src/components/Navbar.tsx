@@ -23,7 +23,7 @@ const Navbar = () => {
             </label>
 
             <input
-              className="h-10 w-full rounded-lg border bg-inherit pe-10 ps-4 text-sm shadow-sm sm:w-56"
+              className="h-10 w-full px-3 py-2.5 text-gray-400 bg-gray-700 focus:bg-gray-900 duration-150 outline-none rounded-lg shadow sm:max-w-sm sm:w-auto"
               id="search"
               type="search"
               placeholder="Search website..."
