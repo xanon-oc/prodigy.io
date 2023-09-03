@@ -1,9 +1,13 @@
+import Demo from "@/components/Demo";
 import React from "react";
 
 const page = () => {
   return (
-    <main className="relative py-28">
+    <main className="relative">
       <div className="container relative z-10 text-gray-600 sm:px-4 md:px-8">
+        <div className="flex justify-center items-center ">
+          <Demo />
+        </div>
         Hi This is the Market page
       </div>
       <div
